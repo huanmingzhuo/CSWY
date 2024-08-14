@@ -1,0 +1,24 @@
+body {
+    padding: 25px;
+    background-color: white;
+    background: url("https://bing.img.run/uhd.php");
+    background-size: cover;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: rgb(78, 84, 81);
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
