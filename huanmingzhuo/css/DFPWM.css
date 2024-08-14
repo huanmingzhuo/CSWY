@@ -1,0 +1,241 @@
+body {
+    padding: 25px;
+    background-color: rgb(78, 84, 81);
+    color: white;
+}
+
+.dark-mode {
+    background-color: rgb(78, 84, 81);
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+
+.nav{
+    width: auto;
+    height: 142px;
+}
+.nav .nav_t{
+    width: auto;
+    height: 90px;
+    border-bottom: 1px solid #F2F2F2;
+}
+.nav .nav_t .logo{
+    float: left;
+	width: 120px;
+}
+.nav .nav_t .logo a img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding-top: 0px;
+
+}
+.nav .nav_t .top_nav__item{
+    float: left;
+    overflow: hidden;
+}
+.nav .nav_t .top_nav__item ul{
+    list-style: none;
+    margin-left: 30px;
+    height: 90px;
+    
+}
+
+.nav .nav_t .top_nav__item ul li{
+    float: left;
+    
+}
+.nav .nav_t .top_nav__item ul li a{
+    display: block;
+    padding: 0 19px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    line-height: 90px;
+    
+}
+.nav .nav_t .top_nav__item ul li a:hover{
+    color:#31c27c; 
+}
+.nav .nav_t .search{
+    float: left;
+    overflow: hidden;
+    margin:26px 0 0 10px;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    position: relative;
+
+}
+.nav .nav_t .search input{
+    width: 225px;
+    height: 40px;
+    text-shadow: none;
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 14px;
+
+}
+.nav .nav_t .search i{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    background-repeat: no-repeat;
+    background-position: 0 -40px;
+}
+.nav .nav_t .header_buttons{
+    width: 260px;
+    height: 90px;
+    float: right;
+
+}
+
+.nav .nav_t .header_buttons a{
+    display: block;
+    float: left;
+    margin-top: 24px;
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+}
+
+.nav .nav_t .header_buttons .start{
+    width: 91px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    padding: 0 9px;
+    margin-left: 20px;
+    border:1px solid #585858;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+
+}
+.nav .nav_t .header_buttons .start:hover{
+    background-color:rgb(163, 163, 163); 
+}
+.nav .nav_t .header_buttons .pay{
+    width: 91px;
+    height: 36px;
+    border:1px solid #ccc;
+    padding: 0 9px;
+    margin-left:10px; 
+    text-align: center;
+    line-height: 36px;
+    border-radius: 3px;
+
+}
+.nav .nav_t .header_buttons .pay:hover{
+    background-color:#ededed; 
+
+}
+
+.show{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.show-pic{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.show-pic img{
+    width: 224px;
+    height: 224px;
+    display: block;
+}
+.show .show-pic img {
+}
+
+.show-pic h3,
+.show-pic p{
+    padding: 10px;
+    margin: 0;
+}
+.show-pic:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transfrom 0.5s ease, box-shadw 0.5s ease;
+}
+
+.footer{
+    height: 200px;
+	width: auto;
+    background-color: #333;
+    font-family:  "poppin";
+}
+.footer .footer_copyright p{
+    line-height: 28px;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+}
+.footer .footer_copyright p a{
+    text-decoration: none;
+    color: #999;
+    padding: 0 2px;
+
+}
+
+.feedback{
+width: 40px;
+height: 130px;
+position: fixed;
+bottom: 50px;
+right: 50px;
+}
+.feedback a{
+display: block;
+width: 40px;
+height: 40px;
+margin-bottom: 2px;
+border: 1px solid #ccc;
+text-decoration: none;
+color: black;
+font-size: 14px;
+background-color: #fff;
+transition: all 0.6s;
+filter: brightness(100%);
+}
+
+.feedback a:hover{
+background-color: #fff;
+color: #31c27c;
+filter: brightness(90%);
+}
+
+.feedback a span{
+display: block;
+width: 18px;
+height: 10px;
+margin: 15px 10px 0 10px;
+background-image: url(../pics/icon.png);
+background-repeat: no-repeat;
+
+
+}
+.feedback .up span{background-position: -160px 0;}
+.feedback .information span{
+width: 30px;
+line-height: 22px;
+background-image: none;
+margin:10px 10px 10px 5px;
+}
+.feedback .down span{
+width: 13px;
+height: 16px;
+margin:12px 10px 0 13px;
+background-position: -60px -220px}
+
+@media (max-width: 1920px){
+}
